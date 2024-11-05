@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* My rules for the fonts */
+@font-face {
+  font-family: "BADABB";
+  src: url(/font/BADABB__.TTF);
+}
+@font-face {
+  font-family: "batmfa";
+  src: url(/font/batmfa__.ttf);
+}
+
+/* De haut en bas de ma page */
+main {
+  background-color: #19496d;
+}
+
+#topPage {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/fond.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: yellow;
+}
+
+/* Definition of the navBar */
+nav {
+  background-color: #e1ed65;
+  font-family: "batmfa", "sans-serif";
+  height: 100px;
+}
+
+ul {
+  width: 95%;
+  margin: auto;
+  /* padding: 2rem; */
+  list-style: none;
+}
+li{
+  width: 10%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#marginNavLogo{
+  margin: 0 10%;
+}
+
+.textNavBar{
+  padding: 2%;
+}
+
+/* floatZone in navBar & footer */
+.floatL {
+  float: left;
+}
+.floatR {
+  float: right;
+}
+#marginR {
+  margin-right: 15%;
+}
+.marginL {
+  margin-left: 0;
+}
+#logo {
+  width: 100%;
+  
+}
+
+.bottomLogo{
+  width: 8%;
+}
+/* j'ai testé en % mais ça me fait de la merde dans la navbar */
+.cls {
+  clear: both;
+}
+footer {
+  background-color: black;
+  margin: auto;
+  height: 10vh;
+}
+
+/* Options for images */
+img {
+  width: 100%;
+  height: auto;
+}
+
+.section90 {
+  width: 90%;
+  margin: auto;
+}
+
+.section70{
+  width: 70%;
+  margin: auto;
+}
+
+.centerImg {
+  display: block;
+  width: 80%;
+  height: 25%;
+}
+
+/* Font for text */
+h2 {
+  font-family: "batmfa", "sans-serif";
+  color: black;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #e1ed65;
+  font-size: 2rem;
+  margin: auto;
+}
+h3 {
+  font-family: "BADABB";
+  color: yellow;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.middleH3, .middle{
+  text-align: center;
+}
+
+article{
+  padding: 1rem;
+}
+
+#films {
+  color: white;
+  background-color: #19496d;
+}
+
+.centerImg{
+  width: 50rem;
+  margin: auto;
+}
+
+.doubleImages{
+  width: 30rem;
+}
+.imageFloatL{
+  width: 30rem;
+  float: left;
+}
+.imageFloatR{
+  width: 30rem;
+  float: right;
+  margin-right: 4rem;
+}
+.articleFloatL{
+  width: 40%;
+  float: left;
+}
+
+p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.articleFloatR{
+  width: 50%;
+  float: right;
+}
+
